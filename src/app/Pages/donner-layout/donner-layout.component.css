@@ -1,0 +1,21 @@
+.sidenav-container {
+  height: 100%;
+  background-image: url("../../../assets/images/background1.png");
+  background-size: cover;
+  
+}
+
+.sidenav {
+  width: 200px;
+  background-color: rgba(90, 90, 241, 0.87);
+}
+
+.sidenav .mat-toolbar {
+  /* background: inherit; */
+}
+
+.mat-toolbar.mat-primary {
+  position: sticky;
+  top: 0;
+  z-index: 1;
+}
